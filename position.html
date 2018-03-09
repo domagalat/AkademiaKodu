@@ -1,17 +1,87 @@
 <!DOCTYPE html>
-<html lang="pl">
-    <head>
-        <!-- Hello comment! -->
-        <meta charset="UTF-8">
-        <title>Position test</title>
-        <style>
-            
-        </style>
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Position test</title>
 
-        <div class="wrapper">
-            
+    <style>
+
+        body {
+            height: 1500px;
+        }
+
+        .wrapper {
+            position: relative;
+            width: 200px;
+            border: 3px solid black;
+            text-align: center;
+            padding: 30px;
+            margin-top: 100px;
+            margin-left: 100px;
+        }
+        .wrapper .box {
+            width: 20px;
+            height: 20px;
+            background: red;
+            padding: 5px;
+            color: white;
+            margin-top: 0;
+            margin-left: 0;
+            position: absolute;
+            top: 0;
+            /*
+            left: 100%;
+            margin-left: -10px;
+            margin-top: -10px;
+            */
+            right: 0;
+            margin-right: -10px;
+            margin-top: -10px;
+
+            /*opacity: 0.5;*/
+        }
+
+        ./*wrapper .counterBox {
+            width: 100px;
+            background: white;
+            padding: 5px;
+            color: black;
+            border: 3px solid black;
+            top: 0;
+            left: 100%;
+            position: relative;
+            text-align: center;
+
+        }
+
+        .wrapper .counterBox .inBox {
+            width: 30px;
+            border: 2px solid red;
+            background: red;
+            color: #fff;
+            position: absolute;
+            top: -12px;
+            left: 95px;
+        }*/
+    </style>
+
+</head>
+<body>
+
+    <div class="wrapper">
+        Blog
+        <div class="box">
+            12
         </div>
-    </body>
+        <!-- <div class="counterBox">
+            Blog
+            <div class="inBox">
+                12
+            </div>
+        </div> -->
+    </div>
+
+    
+
+</body>
 </html>

@@ -30,6 +30,7 @@ header nav a {
     color: #fff;
     background: #0a700a;
     padding: 5px;
+    margin: 0 5px;
 }
 
 header nav a:hover {
@@ -73,6 +74,23 @@ main section p img {
     width: 200px;
     float: left;
     margin-right: 5px;
+}
+
+.article {
+    position: relative;
+    display: inline-block;
+}
+
+.article .counter {
+    width: 10px;
+    padding: 2px;
+    left: 100%;
+    top: 0;
+    background-color: red;
+    position: absolute;
+    margin-left: -5px;
+    font-size: 8px;
+    margin-top: -5px;
 }
 
 footer {
